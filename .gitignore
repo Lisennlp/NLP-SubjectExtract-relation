@@ -1,0 +1,15 @@
+#忽略ltp_data模型文件，可以从ltp官方网站下载
+data/ltp_data
+#忽略测试数据文件,可以把原始数据文件用/src/selectTestData.py跑出来
+data/*
+#忽略原始数据文件
+data/raw
+#忽略跑出来的结果文件
+data/img/
+data/res/
+#虚拟环境配置文件
+venv
+.idea
+src/__pycache__/
+#忽略测试代码文件
+src/test.py

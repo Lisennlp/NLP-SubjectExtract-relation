@@ -1,0 +1,5 @@
+jieba
+pyltp
+numpy
+pandas
+graphviz
